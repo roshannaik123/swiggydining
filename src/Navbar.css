@@ -1,0 +1,72 @@
+/* Navbar.css */
+
+.navbar {
+    background-color:white; /* Change to your desired background color */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:sticky;
+    z-index:100;
+    left:0;
+    right:0;
+    top:0;
+    
+  }
+  
+  .list-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .list{
+    display: flex;
+    align-items: center;
+    margin-right:30px;
+  }
+  
+  .list-items img {
+    width: 150px; 
+    margin-left:150px;/* Adjust the image size as needed */
+  }
+  
+  .list ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-right: 50px;;
+  }
+  
+  .list ul li {
+    margin-right: 20px; 
+    padding-right:100px;
+    cursor: pointer;
+    color:#000;/* Add spacing between list items */
+    text-decoration: none;;
+  }
+  a{
+    text-decoration: none;;
+    color:#ff5e0d
+  }
+  .list ul li:hover{
+    color:#ff4500;
+
+  }
+  
+  .list button {
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s ease;
+  }
+  
+  .list button:hover {
+    background-color: #ff5e0d;
+
+   }  

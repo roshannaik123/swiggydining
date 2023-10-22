@@ -1,0 +1,67 @@
+.image-search {
+    position: relative;
+}
+
+.image-search img {
+    width: 100%;
+    height: 300px;
+}
+
+.search-bar {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.input-container {
+    display: flex;
+    align-items: center; 
+    position: relative;
+}
+
+
+.input-container input {
+    flex: 1; 
+    padding: 10px;
+    border: 1px solid #ccc; 
+}
+
+
+.input-container button {
+    position: absolute;
+    right: 0; 
+    margin: 25px;
+    padding: 10px;
+    background-color: rgba(255, 111, 0, 0.983);
+    color: #fff; 
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding:15px 40px;
+    border-radius:3px;
+    font-size: 15px;;
+}
+.search-bar h1{
+    font-weight: bolder;
+    margin-top:-30px;
+    
+    text-align: center;
+    color: #fff;
+}
+.search-bar h1 span{
+    color:rgba(255, 111, 0, 0.983);
+}
+.input-container input::placeholder {
+    text-indent: 50px; /* Adjust the value (e.g., 10px) to add space from the right */
+}
+
+
+.input-container input {
+    width: 1000px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    font-size: 16px;
+    border-radius: 5px; /* Adjust the font size as needed */
+    /* Add any other styling as desired */
+}

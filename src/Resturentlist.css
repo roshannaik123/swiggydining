@@ -1,0 +1,75 @@
+.rest-list {
+    display: block;
+    position: relative;
+  }
+  
+  .rest-list h1 {
+    margin-left: 250px;
+  }
+  
+  .image-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 5px;
+
+  }
+  
+  .image-list img {
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;;
+  }
+  
+  .image-list p {
+    color: #333;
+    margin:10px 0px;
+  }
+  
+  .image-list div {
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .image-list div:hover {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+   
+        
+      
+  }
+  
+  
+  .image-list p {
+    font-weight: bold;
+    margin-bottom:50px;
+  }
+  
+  .prev-button {
+    position: absolute;
+    bottom: 17px;
+    left: 100px;
+  }
+  
+  .next-button {
+    position: absolute;
+    bottom: 15px;
+    right: 100px;
+  }
+  
+  button {
+    background-color: #ff4500;
+    color: #fff;
+    border: 1px solid #ff4500;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.3s;
+  }
+  .image-list:hover button {
+    opacity: 1;
+  }
+  

@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(236, 232, 232);
+}
+.book-my-table {
+    display: flex;
+}
+
+
+.quickfilter{
+    width:30%;
+}
+.bookimages{
+    width:70%;
+}
+.footer{
+    display:block;
+}

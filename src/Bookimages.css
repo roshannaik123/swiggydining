@@ -1,0 +1,31 @@
+/* Bookimages.css */
+.red {
+    margin-left:100px;/* Set the background color as needed */
+    padding: 20px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between; /* Creates space between the h1 and p elements */
+    align-items: center; /* Align items vertically in the center */
+}
+
+.images2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    
+}
+.images2 img{
+    border-radius: 2px;;
+}
+.images2 p{
+    margin-left:15px;
+}
+.border-image{
+    border:1px solid black;
+    padding-bottom:20px;
+    background-color: white;
+    border-radius:5px;
+    border:none;
+}

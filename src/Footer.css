@@ -1,0 +1,24 @@
+.foot{
+    text-align:center;
+    border-top:1px solid rgb(243, 236, 236);
+
+
+}
+.foot-logo{
+    margin-top:20px;
+    margin-bottom: 30px;;
+}
+.foot-logo img{
+    cursor: pointer;;
+    width:130px;
+    height:40px;
+    
+}
+.foot-logo p span{
+    font-weight: bolder;
+    cursor:pointer;
+}
+.copyright{
+    font-weight: 300;
+    font-size: small;
+}

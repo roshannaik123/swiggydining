@@ -1,0 +1,86 @@
+.offers {
+    background-color: #f0f0f0;
+    padding: 20px;
+
+    
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-left:112px;
+    margin-bottom: -3px;;
+   
+  }
+  
+  .cards {
+    
+    margin-left:100px;
+    display:flex;
+  }
+  
+  .card-box {   
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    border:none;
+    outline:none;
+    box-shadow: 10px 10px 10px rgba(50, 50, 50, 0.5);
+  }
+  
+  .card1,.card2{
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+  padding:1px;
+    box-sizing: border-box; 
+  }
+  
+   .p{
+    border:1px solid black;
+    letter-spacing: 1px;
+    font-weight:bold;
+    margin-left:0px;
+    padding-left: 10px; /* Add padding to the left side */
+    padding-right: 10px;
+    color:white;
+    outline:none;
+    border: none;;
+    display: inline-block;
+    background-color: rgb(240, 198, 121);
+    border-radius:5px;
+
+
+  }
+  .card1  p span{
+    font-weight: bold;
+    color: #e74c3c;
+    font-size: 50px;
+    margin-top: -40px; 
+    display: inline-block;
+  }
+  .card2  p span{
+    font-weight: bold;
+    color:#3ce742;
+    font-size: 50px;
+    margin-top: -40px; 
+    display: inline-block;
+  }
+
+  .card3  p span{
+    font-weight: bold;
+    color: #3ce742;
+    font-size: 50px;
+    margin-top: -40px; 
+    display: inline-block;
+  }
+  .instant{
+    color:rgba(255, 111, 0, 0.983);
+    font-weight: bold;
+    margin-top: -20px;
+    display: inline-block;
+    margin-bottom: 0;;
+  }
